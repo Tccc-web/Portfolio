@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #000000;
+  background: black;
   color: #fff;
 }
 
@@ -82,4 +82,54 @@ nav ul li {
   50% {
     border-color: transparent
   }
+}
+
+.card {
+  display: flex;
+  color: black;
+  margin: 0 20px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.row {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.topimage {
+  height: 165px;
+}
+
+.botimage {
+  height: 165px;
+}
+
+.botbtn {
+  margin: 25px auto;
+}
+
+.aboutme {
+  font-size: 17px;
+  width: 50%;
+  margin: 10px auto;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.text {
+  width: 50%;
+  color: red;
+  font-size: 20px;
+  margin: 20px auto;
+  line-height: 30px;
+  text-align: justify;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.subtext {
+  font-size: 19px;
 }
