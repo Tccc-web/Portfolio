@@ -28,6 +28,10 @@ body {
   justify-content: center;
 }
 
+.tycoon {
+  color: blue;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -40,10 +44,16 @@ a {
   font-size: 23px;
 }
 
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
 nav ul li {
   display: inline-block;
   list-style: none;
   margin: 30px 50px;
+  white-space: nowrap;
 }
 
 .header-text {
@@ -131,6 +141,26 @@ nav ul li {
   font-size: 19px;
 }
 
+.contactdetail {
+  font-size: 21px;
+  text-align: center;
+  margin: 200px auto;
+}
+
+.swinburnelogo {
+  width: 350px;
+  position: relative;
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+}
+
+.education {
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 539px) {
 
   .background-image {
@@ -146,11 +176,16 @@ nav ul li {
 
   a {
     display: flex;
+    margin: -10px auto;
   }
 
   li {
     position: relative;
     justify-content: center;
+  }
+
+  nav ul li {
+    margin: 30px 40px;
   }
 
   .row {
@@ -175,6 +210,16 @@ nav ul li {
     margin-bottom: 20px;
     letter-spacing: 2px;
   }
+
+  .contactdetail {
+    margin: 100px auto;
+  }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 540px) {
+  nav ul li {
+    margin: 30px 10px;
+  }
 }
 
 @media only screen and (min-width: 540px) and (max-width: 767px) {
@@ -191,7 +236,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 30px 21px;
+    margin: 30px 9px;
   }
 
   .row {
@@ -233,7 +278,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 30px 42px;
+    margin: 30px 33px;
   }
 
   .row {
@@ -261,7 +306,7 @@ nav ul li {
   }
 }
 
-@media only screen and (min-width: 884px) and (max-width: 1050px) {
+@media only screen and (min-width: 884px) and (max-width: 1200px) {
 
   .background-image {
     display: flex;
@@ -275,7 +320,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 30px 42px;
+    margin: 30px 41px;
   }
 
   .row {
