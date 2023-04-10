@@ -233,6 +233,10 @@ nav ul li {
   nav ul li {
     margin: 30px 10px;
   }
+
+  .wallpaper {
+    width: 440px;
+  }
 }
 
 @media only screen and (min-width: 540px) and (max-width: 767px) {
