@@ -13,7 +13,7 @@ body {
 .wallpaper {
   position: absolute;
   z-index: -1;
-  width: 150%;
+  width: 100%;
   opacity: 25%;
 }
 
@@ -70,7 +70,6 @@ nav ul li {
 }
 
 .wrapper {
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
@@ -185,6 +184,10 @@ nav ul li {
     float: right;
     height: 750px;
     width: 700px;
+  }
+
+  .wallpaper {
+    width: 350px;
   }
 
   nav {
