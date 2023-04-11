@@ -183,6 +183,10 @@ nav ul li {
 
 @media only screen and (min-width: 375px) and (max-width: 539px) {
 
+  .container {
+    overflow: hidden;
+  }
+
   .background-image {
     display: flex;
     float: right;
@@ -191,8 +195,7 @@ nav ul li {
   }
 
   .wallpaper {
-    width: 375px;
-    margin: 0 auto;
+    width: 320px;
   }
 
   nav {
