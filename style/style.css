@@ -177,15 +177,7 @@ nav ul li {
   bottom: 5px;
 }
 
-.number {
-  white-space: nowrap;
-}
-
 @media only screen and (min-width: 375px) and (max-width: 539px) {
-
-  .container {
-    overflow: hidden;
-  }
 
   .background-image {
     display: flex;
@@ -196,6 +188,7 @@ nav ul li {
 
   .wallpaper {
     width: 320px;
+    box-sizing: border-box;
   }
 
   nav {
@@ -238,13 +231,13 @@ nav ul li {
   .contactdetail {
     margin: 100px auto;
   }
+
+  .number {
+    white-space: nowrap;
+  }
 }
 
 @media only screen and (min-width: 416px) and (max-width: 540px) {
-  nav ul li {
-    margin: 30px 10px;
-  }
-
   .wallpaper {
     width: 440px;
   }
