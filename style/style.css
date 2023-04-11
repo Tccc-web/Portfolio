@@ -177,6 +177,10 @@ nav ul li {
   bottom: 5px;
 }
 
+.number {
+  white-space: nowrap;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 539px) {
 
   .background-image {
@@ -187,7 +191,8 @@ nav ul li {
   }
 
   .wallpaper {
-    width: 350px;
+    width: 375px;
+    margin: 0 auto;
   }
 
   nav {
@@ -339,7 +344,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 30px 38px;
+    margin: 30px 30px;
   }
 
   .row {
@@ -359,5 +364,16 @@ nav ul li {
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: 2px;
+  }
+}
+
+
+@media only screen and (min-width: 1221px) {
+  ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 30px 30px;
   }
 }
