@@ -6,36 +6,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
-    <img class="wallpaper" src="image/wallpaper.png" alt="wallpaper">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Visal Tycoon Chou Portfolio</title>
 </head>
 
-<body>
+<div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <div id="header">
-        <div class="container">
+        <div class="nav">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="myprojects.html">My Projects</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <img class="background-image" src="image/background.png">
+        <div class="wrapper-left">
+            <h2>Hello, It's me</h2>
+            <br>
+            <h1>Chou Visal Tycoon</h1>
+            <br>
+            <h2>A <span class="blue">Front-End Developer</span></h2>
+            <br>
+            <a class="hireBtn" href="/file/Tycoon-Resume.pdf" download>Get my Resume</a>
+            <br><br>
+            <div class="socialIcon">
+                <a href="#facebook"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                <a href="#instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href="https://www.linkedin.com/in/visal-tycoon-chou-874236297/"><i class="fa-brands fa-linkedin"
+                        style="color: #ffffff;"></i></a>
+            </div>
+            <img src="image/code-white.jpeg" alt="codeImg" />
         </div>
-        <div class="header-text">
-            <h1 class="header">Hi, I am <span class="tycoon">Tycoon</span></h1><br />
-            <div class="wrapper">
-                <div class="typing-demo">
-                    <h1>Web Developer.</h1>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/profile.png" alt="" profile />
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1><br>
+                    <p class="subtitle">I am proficient in HTML, CSS, and JavaScript with an advanced understanding of
+                        web
+                        development technologies and best practices. I have honed my skills in creating visually
+                        attractive and easy-to-use websites and web applications. I am skilled in working with
+                        cross-functional teams to build high-quality digital products, including designers and back-end
+                        developers. With a strong desire to keep current on the latest developments in the field, I am
+                        committed to always improving my abilities and contributing to excellent user experiences.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')"">Experience</p>
+                        <p class=" tab-links" onclick=" opentab('education')"">Education</p>
+                    </div>
+
+                    <div class=" tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Soft Skills</span><br><br>
+                                Detail-Oriented | Organized | Problem Solving | Critical Thinking | Time Management |
+                                Technical Documentation | Teamwork | Communication | Customer Service
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>Technical Skills</span><br><br>
+                                HTML | CSS | JavaScript | ReactJS | TypeScript | NextJS | Google Auth | FTP | APIs | GIT
+                                (Version
+                                Control) | Figma | Adobe XD | Adobe Photoshop | MS Office Suite | Google Workspace
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>Design Skills</span><br><br>
+                                Wireframing | Prototyping| User-Interface | User-Experience | App Design | Responsive
+                                Website
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front-End Developer at Grand M. VN Company - Nha Trang, Vietnam (June 2022 - July
+                                    2022)</span><br><br>
+                                • Created an end-to-end E-Commerce website for clients using ReactJS with Fake Store
+                                API.<br><br>
+                                • Developed and launched a new website using ReactJS, resulting in a 30% increase in
+                                website traffic.<br><br>
+                                • Optimized website loading times by 40% through the implementation of front-end
+                                performance optimization techniques.<br><br>
+                                • Collaborated with the design team to create a user interface for the website,
+                                resulting in a 50% increase in page views and a 25% increase in time spent on the site.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="educationContent">Bachelor of Computer Science,
+                                    Swinburne University of Technology - Melbourne | Australia (2019-2023)
+                                </span><br>
+                                <span class="educationContent">East-West International School - Phnom Penh | Cambodia
+                                    (2011-2018)
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div id="projects">
+        <div class="project-container">
+            <div class="row">
+                <div class="project-col-1">
+                    <h1>Latest <span class="blue">Projects</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacts" class="contact">
+        <div class="contact-col-1">
+            <h1>Contact <span class="blue">Me!</span></h1>
+        </div>
+        <div class="contact-col-2">
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <br><input type="submit" value="Send Enquiry" class="btn">
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
 </body>
 
 </html>
