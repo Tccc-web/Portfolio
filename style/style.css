@@ -222,18 +222,16 @@ a.hireBtn {
 
 /* ----- project ----- */
 
-#project {
-  padding: 5rem 6rem;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.project-card {
+  padding: 2.5rem;
 }
 
 .project-col-1 {
-  margin: 20px auto;
+  margin: 2rem auto;
+}
+
+.project-card:hover {
+  cursor: pointer;
 }
 
 /* ----- contact ----- */
@@ -241,6 +239,12 @@ a.hireBtn {
 .contact-col-1 {
   display: flex;
   justify-content: center;
+  margin: 1rem 0;
+}
+
+.contact-col-2 {
+  height: 30rem;
+  background-color: #161515;
 }
 
 .contact form .input-box {
