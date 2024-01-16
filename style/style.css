@@ -87,7 +87,7 @@ a:hover {
 
 .wrapper-left img {
   position: absolute;
-  margin: -30vw 101vh;
+  margin: -23vw 104vh;
 }
 
 .wrapper-left:hover {
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .wrapper-left img {
-  width: 35vw;
+  width: 30vw;
 }
 
 a.hireBtn {
@@ -222,8 +222,17 @@ a.hireBtn {
 
 /* ----- project ----- */
 
+.project-container {
+  flex-basis: 25%;
+}
+
 .project-card {
-  padding: 2.5rem;
+  padding: 1.5rem;
+}
+
+.project-container a {
+  display: flex;
+  margin-left: 10vh;
 }
 
 .project-col-1 {
@@ -233,6 +242,7 @@ a.hireBtn {
 .project-card:hover {
   cursor: pointer;
 }
+
 
 /* ----- contact ----- */
 
