@@ -223,6 +223,7 @@ a.hireBtn {
 /* ----- project ----- */
 
 .project-container {
+  display: flex;
   flex-basis: 25%;
 }
 
@@ -233,6 +234,13 @@ a.hireBtn {
 .project-container a {
   display: flex;
   margin-left: 10vh;
+}
+
+.project-card p {
+  position: relative;
+  float: right;
+  margin-left: 10vh;
+  margin-bottom: 10fr;
 }
 
 .project-col-1 {
