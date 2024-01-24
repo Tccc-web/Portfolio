@@ -262,6 +262,10 @@ a.hireBtn {
 
 /* ----- contact ----- */
 
+.contact {
+  margin-top: 15vh;
+}
+
 .contact-col-1 {
   display: flex;
   justify-content: center;
@@ -290,22 +294,22 @@ a.hireBtn {
   margin: 0.3rem auto;
 }
 
-input.btn {
+button.btn {
   display: block;
   margin: 0 auto;
   background-color: #00abf0;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: white;
   height: 2.5rem;
   width: 12rem;
   border: 2px solid #00abf0;
   border-radius: 1.5rem;
-  font-size: 1.1em;
+  font-size: 1.3em;
   letter-spacing: 1px;
 }
 
-input.btn:hover {
+button.btn:hover {
   background-color: #00b7ff;
   box-shadow: 1px 1px 17px 3px #00abf0;
   transition: 0.2s;
