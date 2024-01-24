@@ -325,7 +325,7 @@ button.btn:hover {
   }
 
   .wrapper-left {
-    margin: -10% -34%;
+    margin: -10% -27%;
   }
 
   .wrapper-left h1,
@@ -353,54 +353,38 @@ button.btn:hover {
     border-radius: 200px;
     display: flex;
     margin-top: -80%;
-    margin-left: -8%;
+    margin-left: 4%;
     margin-bottom: 27%;
     width: 221px;
   }
 
   .about-col-2 {
-    width: 20rem;
-    margin-left: -28%;
+    width: 38rem;
+    margin-left: -31%;
   }
 
   .about-col-2 h1 {
-    margin-left: 23%;
+    margin-left: 29%;
   }
 
   .tab-titles {
     margin-top: 46px;
     text-align: center;
-    max-width: 5%;
+    margin-left: 8%;
   }
 
   .tab-contents ul li {
     text-align: center;
   }
 
-  .project-col-1 {
-    margin: 2rem 4.5rem;
-  }
-
   .project-card img {
     width: 330px;
-    margin-left: -91px;
+    margin-left: -64px;
   }
 
   .microDesc,
   .ecommDesc {
     display: none;
-  }
-
-  .contact-col-1 {
-    margin-right: 50px;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .contact-col-2 {
-    width: 376px;
   }
 
   .contact form .input-box input,
