@@ -153,9 +153,9 @@ a.hireBtn {
 }
 
 .about-col-1 img {
-  width: 100%;
+  width: 350px;
   border-radius: 15px;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .about-col-2 {
@@ -251,6 +251,14 @@ a.hireBtn {
   cursor: pointer;
 }
 
+.microDesc,
+.ecommDesc {
+  color: white;
+  margin-left: 7vw;
+  width: 36%;
+  line-height: 2.5;
+  font-size: 18px;
+}
 
 /* ----- contact ----- */
 
