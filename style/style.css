@@ -231,6 +231,10 @@ a.hireBtn {
   padding: 1.5rem;
 }
 
+.project-card img {
+  width: 50%;
+}
+
 .project-container a {
   display: flex;
   margin-left: 10vh;
@@ -313,4 +317,94 @@ button.btn:hover {
   background-color: #00b7ff;
   box-shadow: 1px 1px 17px 3px #00abf0;
   transition: 0.2s;
+}
+
+@media only screen and (max-width: 676px) {
+  nav {
+    display: none;
+  }
+
+  .wrapper-left {
+    margin: -10% -34%;
+  }
+
+  .wrapper-left h1,
+  h2,
+  a.hireBtn,
+  .socialIcon {
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .wrapper-left img {
+    display: none;
+  }
+
+  .socialIcon {
+    display: flex;
+  }
+
+  .about-col-1 {
+    margin: 0rem;
+  }
+
+  .about-col-1 img {
+    border-radius: 200px;
+    display: flex;
+    margin-top: -80%;
+    margin-left: -8%;
+    margin-bottom: 27%;
+    width: 221px;
+  }
+
+  .about-col-2 {
+    width: 20rem;
+    margin-left: -28%;
+  }
+
+  .about-col-2 h1 {
+    margin-left: 23%;
+  }
+
+  .tab-titles {
+    margin-top: 46px;
+    text-align: center;
+    max-width: 5%;
+  }
+
+  .tab-contents ul li {
+    text-align: center;
+  }
+
+  .project-col-1 {
+    margin: 2rem 4.5rem;
+  }
+
+  .project-card img {
+    width: 330px;
+    margin-left: -91px;
+  }
+
+  .microDesc,
+  .ecommDesc {
+    display: none;
+  }
+
+  .contact-col-1 {
+    margin-right: 50px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contact-col-2 {
+    width: 376px;
+  }
+
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 77%;
+  }
 }
