@@ -82,7 +82,6 @@ a:hover {
   padding: 10rem;
   width: 80%;
   font-size: 1.5rem;
-  flex-basis: 25%;
 }
 
 .wrapper-left img {
@@ -222,11 +221,6 @@ a.hireBtn {
 
 /* ----- project ----- */
 
-.project-container {
-  display: flex;
-  flex-basis: 25%;
-}
-
 .project-card {
   padding: 1.5rem;
 }
@@ -255,10 +249,16 @@ a.hireBtn {
   cursor: pointer;
 }
 
+.projectTitle {
+  text-align: center;
+  color: #00abf0;
+}
+
 .microDesc,
 .ecommDesc {
   color: white;
   margin-left: 7vw;
+  margin-bottom: 3vh;
   width: 36%;
   line-height: 2.5;
   font-size: 18px;
@@ -319,76 +319,49 @@ button.btn:hover {
   transition: 0.2s;
 }
 
-@media only screen and (max-width: 676px) {
+/* Phone Screen */
+
+/* @media screen and (max-width: 600px) {
   nav {
     display: none;
   }
 
   .wrapper-left {
-    margin: -10% -27%;
-  }
-
-  .wrapper-left h1,
-  h2,
-  a.hireBtn,
-  .socialIcon {
-    width: 350px;
-    text-align: center;
+    white-space: nowrap;
+    padding: 0;
+    font-size: 15px;
     justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 16%;
   }
 
-  .wrapper-left img {
+  .code-icon {
     display: none;
   }
 
-  .socialIcon {
-    display: flex;
-  }
-
-  .about-col-1 {
-    margin: 0rem;
-  }
-
   .about-col-1 img {
-    border-radius: 200px;
-    display: flex;
-    margin-top: -80%;
-    margin-left: 4%;
-    margin-bottom: 27%;
-    width: 221px;
+    width: 300px;
+    margin: -10rem 0 -7rem -5%;
   }
 
   .about-col-2 {
-    width: 38rem;
-    margin-left: -31%;
-  }
-
-  .about-col-2 h1 {
-    margin-left: 29%;
-  }
-
-  .tab-titles {
-    margin-top: 46px;
-    text-align: center;
-    margin-left: 8%;
-  }
-
-  .tab-contents ul li {
+    margin: 25% 0 0 -31%;
     text-align: center;
   }
 
   .project-card img {
-    width: 330px;
-    margin-left: -64px;
+    width: 297px;
+    height: 198px;
+    margin-left: -52px;
   }
 
   .microDesc,
   .ecommDesc {
     display: none;
   }
+} */
 
-  .contact form .input-box input,
-  .contact form textarea {
-    width: 77%;
-  }
-}
+/* Tablet Screen*/
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) {} */
